@@ -1,0 +1,11 @@
+D:\GIT_Repos\training_scores\Training_rankings\bin\Release\Training_rankings.exe.config
+D:\GIT_Repos\training_scores\Training_rankings\bin\Release\Training_rankings.exe
+D:\GIT_Repos\training_scores\Training_rankings\bin\Release\Training_rankings.pdb
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.csprojAssemblyReference.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.Form1.resources
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.Properties.Resources.resources
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.StartBox.resources
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.csproj.GenerateResource.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.csproj.CoreCompileInputs.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.exe
+D:\GIT_Repos\training_scores\Training_rankings\obj\Release\Training_rankings.pdb
