@@ -84,19 +84,19 @@ if (gleichst_poss !=j):
 
         trefferdiff = treffer_ges - geg_treff_ges
 
-        print(Name,":Deine Trainingsbewertung beträgt:",sk ,"Pkt")
+        print(Name,": Deine Trainingsbewertung beträgt:",sk ,"Pkt")
 
-        print(Name,":Deine Durchschnittspunkte pro Gefecht betragen:",pk_durchschnitt,"Pkt")
+        print(Name,": Deine Durchschnittspunkte pro Gefecht betragen:",pk_durchschnitt,"Pkt")
 
-        print(Name,":Durchschnittstreffer pro Gefecht:", treffer_durchschnitt)
+        print(Name,": Durchschnittstreffer pro Gefecht:", treffer_durchschnitt)
 
-        print(Name,":Deine Insgesamt gesetzten Treffer:",treffer_ges)      
+        print(Name,": Deine Insgesamt gesetzten Treffer:",treffer_ges)      
 
-        print(Name,":Deine Durchschnittsgegentreffer pro Gefecht:", geg_treff_durch)
+        print(Name,": Deine Durchschnittsgegentreffer pro Gefecht:", geg_treff_durch)
 
-        print(Name,":Deine Gegentreffer Insgesamt:",geg_treff_ges )
+        print(Name,": Deine Gegentreffer Insgesamt:",geg_treff_ges )
 
-        print(Name,":Deine Treffer Differenz:", trefferdiff)
+        print(Name,": Deine Treffer Differenz:", trefferdiff)
 
     else:
 
@@ -171,19 +171,19 @@ elif (gleichst_poss == j):
 
             trefferdiff = treffer_ges - geg_treff_ges
 
-            print(Name,":Deine Trainingsbewertung beträgt:",sk ,"Pkt")
+            print(Name,": Deine Trainingsbewertung beträgt:",sk ,"Pkt")
     
-            print(Name,":Deine Durchschnittspunkte pro Gefecht betragen:",pk_durchschnitt,"Pkt")
+            print(Name,": Deine Durchschnittspunkte pro Gefecht betragen:",pk_durchschnitt,"Pkt")
 
-            print(Name,":Durchschnittstreffer pro Gefecht:", treffer_durchschnitt)
+            print(Name,": Durchschnittstreffer pro Gefecht:", treffer_durchschnitt)
 
-            print(Name,":Deine Insgesamt gesetzten Treffer:",treffer_ges)      
+            print(Name,": Deine Insgesamt gesetzten Treffer:",treffer_ges)      
 
-            print(Name,":Deine Durchschnittsgegentreffer pro Gefecht:", geg_treff_durch)
+            print(Name,": Deine Durchschnittsgegentreffer pro Gefecht:", geg_treff_durch)
 
-            print(Name,":Deine Gegentreffer Insgesamt:",geg_treff_ges )
+            print(Name,": Deine Gegentreffer Insgesamt:",geg_treff_ges )
 
-            print(Name,":Deine Treffer Differenz:", trefferdiff)
+            print(Name,": Deine Treffer Differenz:", trefferdiff)
 
     else:
         print("Anzahl Gefechte kann nicht null sein")

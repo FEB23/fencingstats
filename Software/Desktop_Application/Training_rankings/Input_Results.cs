@@ -16,5 +16,6 @@ namespace Training_rankings
         {
             InitializeComponent();
         }
+
     }
 }

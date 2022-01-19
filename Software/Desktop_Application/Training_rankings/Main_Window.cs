@@ -14,16 +14,16 @@ namespace Training_rankings
     public partial class Main_Window : Form
 
     {
-        public  string NAME;
-                
+        Public_variables pub = new Public_variables();
+
         public Main_Window()
         {
-            
-
+          
             InitializeComponent();
+            richTextBox1.Text = StartBox.name;
             richTextBox2.Text = DateTime.Now.ToString();
-            
-            richTextBox1.Text = NAME;
+
+           
         }
 
         private void Score_Text()
@@ -82,30 +82,14 @@ namespace Training_rankings
             //Score_Text();
             
         }
-        private void score_Input(int total, int wins, int losses )
+        private void score_Input(int total, int wins, int losses)
         {
-            int x = 500;
-            int y = 250;
-            Form Input = new Form();
-            Input.Location = new Point(x, y);
-            Input.Width = 200;
-            Input.SuspendLayout();
-            for (int i =0; i< total; i++)
-            {
-               
-            }
-            Input.Show();
-        }
+            
+        }    
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-       
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

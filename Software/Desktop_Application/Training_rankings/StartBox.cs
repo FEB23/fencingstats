@@ -12,8 +12,9 @@ namespace Training_rankings
 {
     public partial class StartBox : Form
     {
+        Training_rankings.Main_Window Main = new Training_rankings.Main_Window();
+        public static String name = "";
         
-        public string fencer_Name = "";
         public StartBox()
         {
             this.MaximizeBox = false;
@@ -23,9 +24,10 @@ namespace Training_rankings
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            Training_rankings.Main_Window Main = new Training_rankings.Main_Window();
-            Main.NAME = textBox1.Text.ToString();
+            name = textBox1.Text.ToString();
+            
             Main.Show();
+        
         }
 
         private void StartBox_Load(object sender, EventArgs e)
@@ -36,6 +38,28 @@ namespace Training_rankings
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+        public void wait(int milliseconds)
+        {
+            var timer1 = new System.Windows.Forms.Timer();
+            if (milliseconds == 0 || milliseconds < 0) return;
+
+            // Console.WriteLine("start wait timer");
+            timer1.Interval = milliseconds;
+            timer1.Enabled = true;
+            timer1.Start();
+
+            timer1.Tick += (s, e) =>
+            {
+                timer1.Enabled = false;
+                timer1.Stop();
+                // Console.WriteLine("stop wait timer");
+            };
+
+            while (timer1.Enabled)
+            {
+                Application.DoEvents();
+            }
         }
     }
 }

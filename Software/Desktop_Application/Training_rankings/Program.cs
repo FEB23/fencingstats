@@ -12,6 +12,7 @@ namespace Training_rankings
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
         [STAThread]
+       
         static void Main()
         {
            Application.EnableVisualStyles();
