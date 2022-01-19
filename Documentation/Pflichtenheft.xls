@@ -1,0 +1,21 @@
+	Feature:		Importance			Status:
+						
+1	Input every fight accordingly.		Very High			In progress
+						
+2	Create and Implement scoring alghorythm.		High			Created but not yet implemented.
+						
+3	Store and Export as file.		Low			Not in works.
+						
+4	First time Setup process.		Mediun			Not yet implemented.
+						
+5	Config to save names, where CSVs are supposed to be stored,and latest csvs.		High			
+						
+6	Load CSVs		Medium			
+						
+7	Display 10 latest CSVs in treeview and load on click.		Low			
+						
+8	Create Demo in Pyhton.		High			DONE
+						
+9	Create Project Demonstration.					
+						
+10						
