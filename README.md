@@ -36,6 +36,7 @@ Programming languages/ Frameworks:
 
 
 Type of Application:
+* Desktop
 * Web
 * Mobile
 
