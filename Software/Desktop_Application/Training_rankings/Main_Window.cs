@@ -14,16 +14,12 @@ namespace Training_rankings
     public partial class Main_Window : Form
 
     {
-        Public_variables pub = new Public_variables();
-
         public Main_Window()
         {
-          
             InitializeComponent();
             richTextBox1.Text = StartBox.name;
             richTextBox2.Text = DateTime.Now.ToString();
-
-           
+                     
         }
 
         private void Score_Text()

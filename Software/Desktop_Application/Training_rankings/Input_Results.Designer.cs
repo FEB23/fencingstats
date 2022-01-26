@@ -54,7 +54,6 @@
             this.richTextBox1.TabIndex = 19;
             this.richTextBox1.Text = "";
             this.richTextBox1.UseWaitCursor = true;
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // richTextBox2
             // 
@@ -73,7 +72,6 @@
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 21;
             this.label2.Text = "Your Points:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -83,7 +81,6 @@
             this.label3.Size = new System.Drawing.Size(116, 13);
             this.label3.TabIndex = 22;
             this.label3.Text = "Your Opponents Points";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
             // 

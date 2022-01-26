@@ -152,7 +152,7 @@
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(122, 29);
             this.richTextBox2.TabIndex = 12;
-            this.richTextBox2.Text = "";
+            this.richTextBox2.Text = StartBox.name;
             this.richTextBox2.UseWaitCursor = true;
             // 
             // label4
@@ -201,7 +201,6 @@
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             this.richTextBox1.UseWaitCursor = true;
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button3
             // 
@@ -214,7 +213,6 @@
             this.button3.Text = "Export\nFile";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.UseWaitCursor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label9
             // 
