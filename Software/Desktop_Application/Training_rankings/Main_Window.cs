@@ -15,7 +15,17 @@ namespace Training_rankings
 
     {
         public  string NAME;
-                
+        
+        private int fights;
+        
+        Training_rankings.Input_Results input = new Training_rankings.Input_Results();
+        List<int> points_wins = new List<int>();
+        List<int> op_points_wins = new List<int>();
+        List<int> points_loss = new List<int>();
+        List<int> op_points_loss = new List<int>();
+        int wins;
+        string Name;
+        int defeats;
         public Main_Window()
         {
             
@@ -27,19 +37,9 @@ namespace Training_rankings
         }
 
         private void Score_Text()
-        {
-           
-            string Name = richTextBox1.Text.ToString();
-            string wins = textBox1.Text;
-            float Wins = 0;
-            if (wins != "")
-            {
-                Wins = float.Parse(wins);
-            }
-            else
-            {
-                Wins = 0;
-            }
+        {      
+            
+            
             float Matches = 0;
             string matches = textBox2.Text;
             if (matches != "")
@@ -76,25 +76,29 @@ namespace Training_rankings
 
         }
 
+        private void parse_values()
+        {
+            
+            if (textBox1.Text != "")
+            {
+                wins = int.Parse(textBox1.Text);
+                defeats = int.Parse(textBox2.Text);
+            }
+        }
         private void start_Process_Click(object sender, EventArgs e)
         {
-            score_Input(10, 5, 5);
+            
+           
+            score_Input(wins, 5, 5);
             //Score_Text();
             
         }
-        private void score_Input(int total, int wins, int losses )
+        private void score_Input(int total, int wins, int defeatses )
         {
-            int x = 500;
-            int y = 250;
-            Form Input = new Form();
-            Input.Location = new Point(x, y);
-            Input.Width = 200;
-            Input.SuspendLayout();
-            for (int i =0; i< total; i++)
+            for( int i = 0; i< wins; i++)
             {
-               
+                input.Show();
             }
-            Input.Show();
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -104,6 +108,11 @@ namespace Training_rankings
        
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Main_Window_Load(object sender, EventArgs e)
         {
 
         }

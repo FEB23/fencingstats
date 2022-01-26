@@ -41,3 +41,15 @@ D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Training_rankings\obj\Debug\T
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Training_rankings\obj\Debug\Training_rankings.csproj.CoreCompileInputs.cache
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Training_rankings\obj\Debug\Training_rankings.exe
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Training_rankings\obj\Debug\Training_rankings.pdb
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\bin\Debug\Training_rankings.exe.config
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\bin\Debug\Training_rankings.exe
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\bin\Debug\Training_rankings.pdb
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.csprojAssemblyReference.cache
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.Input_Results.resources
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.Main_Window.resources
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.Properties.Resources.resources
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.StartBox.resources
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.csproj.GenerateResource.cache
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.csproj.CoreCompileInputs.cache
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.exe
+D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.pdb

@@ -66,7 +66,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(20, 222);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(176, 22);
             this.textBox1.TabIndex = 4;
@@ -78,7 +78,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(20, 135);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(177, 22);
             this.textBox2.TabIndex = 4;
@@ -109,7 +109,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(231, 135);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(161, 22);
             this.textBox3.TabIndex = 7;
@@ -131,7 +131,7 @@
             this.start_Process.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.start_Process.ForeColor = System.Drawing.Color.DarkBlue;
             this.start_Process.Location = new System.Drawing.Point(417, 27);
-            this.start_Process.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.start_Process.Margin = new System.Windows.Forms.Padding(4);
             this.start_Process.Name = "start_Process";
             this.start_Process.Size = new System.Drawing.Size(163, 80);
             this.start_Process.TabIndex = 9;
@@ -145,7 +145,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button2.ForeColor = System.Drawing.Color.DarkBlue;
             this.button2.Location = new System.Drawing.Point(417, 202);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(163, 44);
             this.button2.TabIndex = 11;
@@ -157,7 +157,7 @@
             // richTextBox2
             // 
             this.richTextBox2.Location = new System.Drawing.Point(231, 41);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(161, 35);
             this.richTextBox2.TabIndex = 12;
@@ -178,7 +178,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(231, 222);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(161, 22);
             this.textBox4.TabIndex = 14;
@@ -209,20 +209,19 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(20, 41);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(176, 35);
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             this.richTextBox1.UseWaitCursor = true;
-            
             // 
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button3.ForeColor = System.Drawing.Color.DarkBlue;
             this.button3.Location = new System.Drawing.Point(417, 114);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(163, 65);
             this.button3.TabIndex = 20;
@@ -279,7 +278,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(606, 327);
             this.MinimizeBox = false;
@@ -288,7 +287,7 @@
             this.RightToLeftLayout = true;
             this.Text = "Main Window Start";
             this.UseWaitCursor = true;
-            
+            this.Load += new System.EventHandler(this.Main_Window_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
