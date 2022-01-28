@@ -4,10 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Fencing_stats
 {
-    static class Program
+    class fencer_info
+    {
+
+        public string name { get; set; }
+        public string weapon { get; set; }
+
+        public string birthdate { get; set; }
+    }
+        static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -25,8 +34,15 @@ namespace Fencing_stats
             }
             else
             {
+                using (StreamReader r = new StreamReader(setup_file))
+                {
+                    string json = r.ReadToEnd();
+                    List<fencer_info> fencer_inf = Newtonsoft.Json.JsonConvert.DeserializeObject<List<fencer_info>>(json);
+                    
+                }
                 Application.Run(new Main_Window());
             }
+            
         }
     }
 }

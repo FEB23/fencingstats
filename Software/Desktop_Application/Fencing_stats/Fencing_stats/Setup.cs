@@ -18,15 +18,8 @@ namespace Fencing_stats
 
     public partial class Setup : Form
     {
-        class fencer_info
-        {
-
-            public string name { get; set; }
-            public string weapon { get; set; }
-
-            public string birthdate { get; set; }
-
-        }
+       
+        
         public Setup()
         {
             InitializeComponent();
