@@ -15,7 +15,7 @@ namespace Fencing_stats
         [STAThread]
         static void Main()
         {
-            string setup_file = @"D:\path.json";
+            string setup_file = @"D:\fencing_stats.json";
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

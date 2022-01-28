@@ -44,7 +44,9 @@ namespace Fencing_stats
             }) ;
 
             string json = JsonSerializer.Serialize(_data);
-            File.WriteAllText(@"D:\path.json", json);
+            File.WriteAllText(@"D:\fencing_stats.json", json);
+            MessageBox.Show("Setup Complete, please restart Application!","Completed!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            this.Close();
 
         }
     }
