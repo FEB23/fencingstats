@@ -54,6 +54,7 @@
             this.richTextBox1.TabIndex = 19;
             this.richTextBox1.Text = "";
             this.richTextBox1.UseWaitCursor = true;
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // richTextBox2
             // 
@@ -90,6 +91,7 @@
             this.button1.TabIndex = 23;
             this.button1.Text = "Next";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Input_Results
             // 
@@ -105,6 +107,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Input_Results";
             this.RightToLeftLayout = true;
+            this.Load += new System.EventHandler(this.Input_Results_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -13,6 +13,7 @@ namespace Training_rankings
     public partial class StartBox : Form
     {
         Training_rankings.Main_Window Main = new Training_rankings.Main_Window();
+        Training_rankings.Input_Results input = new Training_rankings.Input_Results();
         public static String name = "";
         
         public StartBox()

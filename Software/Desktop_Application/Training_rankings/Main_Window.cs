@@ -14,6 +14,7 @@ namespace Training_rankings
     public partial class Main_Window : Form
 
     {
+        Training_rankings.Input_Results input = new Training_rankings.Input_Results();
         public Main_Window()
         {
             InitializeComponent();
@@ -80,6 +81,10 @@ namespace Training_rankings
         }
         private void score_Input(int total, int wins, int losses)
         {
+            for (int i = 0; i < total; i++)
+            {
+                input.Show();
+            }
             
         }    
         private void button2_Click(object sender, EventArgs e)
