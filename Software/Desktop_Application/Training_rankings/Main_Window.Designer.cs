@@ -215,20 +215,7 @@
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             this.richTextBox1.UseWaitCursor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.ForeColor = System.Drawing.Color.DarkBlue;
-            this.button3.Location = new System.Drawing.Point(417, 114);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 65);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Export\nFile";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.UseWaitCursor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+        
             // 
             // label9
             // 

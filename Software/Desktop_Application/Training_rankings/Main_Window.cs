@@ -107,14 +107,5 @@ namespace Training_rankings
 
        
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Main_Window_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
