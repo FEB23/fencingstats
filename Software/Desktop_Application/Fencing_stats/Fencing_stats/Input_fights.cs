@@ -8,14 +8,19 @@ using System.Windows.Forms;
 
 namespace Fencing_stats
 {
-    public partial class Main_Window : Form
+    public partial class Input_fights : Form
     {
-        public Main_Window()
+        public Input_fights()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox16_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void calculate_button_Click(object sender, EventArgs e)
         {
 
         }
