@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Training_rankings
 {
@@ -15,12 +16,18 @@ namespace Training_rankings
        
         static void Main()
         {
-           Application.EnableVisualStyles();
+            string fileName = @"D:\\fencing_stats.txt";
+            Application.EnableVisualStyles();
            Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new StartBox());
-          
-        
-        
+            if (!File.Exists(fileName))
+            {
+                Application.Run(new setup_window());
+            }
+            Application.Run(new Main_Window());
+           
+
+
+
         }
     }
 }
