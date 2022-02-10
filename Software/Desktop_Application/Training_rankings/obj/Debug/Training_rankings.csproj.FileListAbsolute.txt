@@ -78,3 +78,4 @@ D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.csproj.GenerateResource.cache
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.csproj.CoreCompileInputs.cache
 D:\Berufsschule\Jahr3\Berufschule\Inf\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.setup_window.resources
+C:\Users\Fabian\OneDrive\Desktop\Git\fencingstats\Software\Desktop_Application\Training_rankings\obj\Debug\Training_rankings.setup_window.resources
