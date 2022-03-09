@@ -15,10 +15,7 @@ namespace Fencing_stats
             InitializeComponent();
         }
 
-        private void textBox16_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void calculate_button_Click(object sender, EventArgs e)
         {

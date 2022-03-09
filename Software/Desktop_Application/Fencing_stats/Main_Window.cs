@@ -15,7 +15,23 @@ namespace Fencing_stats
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+       
+
+        private void updateInformationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Fencing_stats.Setup setup = new Fencing_stats.Setup();
+            setup.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            Fencing_stats.Input_fights input_fights = new Fencing_stats.Input_fights();
+            
+            input_fights.Show();
+        }
+
+        private void Main_Window_Load(object sender, EventArgs e)
         {
 
         }

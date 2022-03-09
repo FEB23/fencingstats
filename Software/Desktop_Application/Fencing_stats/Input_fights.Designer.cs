@@ -185,7 +185,7 @@ namespace Fencing_stats
             this.fight_8_op.Name = "fight_8_op";
             this.fight_8_op.Size = new System.Drawing.Size(100, 23);
             this.fight_8_op.TabIndex = 16;
-            this.fight_8_op.TextChanged += new System.EventHandler(this.textBox16_TextChanged);
+            
             // 
             // Input_fights
             // 

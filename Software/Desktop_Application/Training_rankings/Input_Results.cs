@@ -28,12 +28,7 @@ namespace Training_rankings
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(richTextBox1.Text != "" && richTextBox2.Text != "")
-            {
-                points_win.Add(int.Parse(richTextBox1.Text));
-                points_win.Add(int.Parse(richTextBox1.Text));
-            }
-            
+                       
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

@@ -8,14 +8,7 @@ using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Fencing_stats
 {
-    class fencer_info
-    {
-
-        public string name { get; set; }
-        public string weapon { get; set; }
-
-        public string birthdate { get; set; }
-    }
+    
         static class Program
     {
         /// <summary>
@@ -24,22 +17,23 @@ namespace Fencing_stats
         [STAThread]
         static void Main()
         {
-            string setup_file = @"D:\fencing_stats.json";
+         
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            //sets path of set up file 
+            string setup_file = @"D:\fencing_stats.txt";
+            
+            //checks if setup file exists
             if (!File.Exists(setup_file))
             {
+                //if not start setup process
                 Application.Run(new Setup());
             }
             else
             {
-                using (StreamReader r = new StreamReader(setup_file))
-                {
-                    string json = r.ReadToEnd();
-                    List<fencer_info> fencer_inf = Newtonsoft.Json.JsonConvert.DeserializeObject<List<fencer_info>>(json);
-                    
-                }
+                //if so start application
                 Application.Run(new Main_Window());
             }
             
