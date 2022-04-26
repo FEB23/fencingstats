@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wDk9E3tMnUu5RGKpJTtLEQ7rOOtGvCC5nsco3B8aIpDJZwIbz8txQA/BKR1S5hrEIa8kpbB7R3KoSrtMS6aaQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fabian\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Fabian\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
