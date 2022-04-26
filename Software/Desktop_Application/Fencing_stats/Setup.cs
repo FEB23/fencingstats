@@ -36,7 +36,8 @@ namespace Fencing_stats
                 writer.WriteLine(encryption.Encrypt(birthdate.Value.Date.ToString()));
                 
             }
-          
+            
+
 
 
 

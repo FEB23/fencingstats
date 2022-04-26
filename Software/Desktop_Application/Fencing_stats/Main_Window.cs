@@ -35,5 +35,20 @@ namespace Fencing_stats
         {
 
         }
+
+        private void exit_button_click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void refresh_ui_button_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void training_points_box_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

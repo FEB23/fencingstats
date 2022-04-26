@@ -29,6 +29,7 @@ namespace Fencing_stats
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Setup));
             this.head = new System.Windows.Forms.Label();
             this.sentence_1 = new System.Windows.Forms.Label();
             this.sentence_2 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@ namespace Fencing_stats
             this.head.Size = new System.Drawing.Size(144, 15);
             this.head.TabIndex = 0;
             this.head.Text = "Welcome to Fencing Stats";
-           
             // 
             // sentence_1
             // 
@@ -146,6 +146,7 @@ namespace Fencing_stats
             this.Controls.Add(this.sentence_2);
             this.Controls.Add(this.sentence_1);
             this.Controls.Add(this.head);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Setup";
             this.Text = "Setup";
             this.ResumeLayout(false);

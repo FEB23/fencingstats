@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabian\\OneDrive\\Desktop\\Git\\fencingstats\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj": {}
+    "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabian\\OneDrive\\Desktop\\Git\\fencingstats\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj": {
+    "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabian\\OneDrive\\Desktop\\Git\\fencingstats\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj",
+        "projectUniqueName": "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj",
         "projectName": "Fencing_stats",
-        "projectPath": "C:\\Users\\Fabian\\OneDrive\\Desktop\\Git\\fencingstats\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj",
+        "projectPath": "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\Fencing_stats.csproj",
         "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabian\\OneDrive\\Desktop\\Git\\fencingstats\\Software\\Desktop_Application\\Fencing_stats\\obj\\",
+        "outputPath": "C:\\Users\\Fabian\\source\\repos\\FEB23\\fencingstats_26\\Software\\Desktop_Application\\Fencing_stats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -61,6 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -69,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

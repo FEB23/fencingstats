@@ -40,7 +40,6 @@ namespace Fencing_stats
         }
         private void InitializeComponent()
         {
-            Fencing_stats.public_functions fuctions = new Fencing_stats.public_functions();
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Window));
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -57,6 +56,10 @@ namespace Fencing_stats
             this.settingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.updateInformationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.start_input_button = new System.Windows.Forms.Button();
+            this.exit_button = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.contextMenuStrip4.SuspendLayout();
             this.contextMenuStrip5.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -70,11 +73,12 @@ namespace Fencing_stats
             // welcome_label
             // 
             this.welcome_label.AutoSize = true;
+            this.welcome_label.ForeColor = System.Drawing.Color.White;
             this.welcome_label.Location = new System.Drawing.Point(12, 39);
             this.welcome_label.Name = "welcome_label";
-            this.welcome_label.Size = new System.Drawing.Size(271, 15);
+            this.welcome_label.Size = new System.Drawing.Size(306, 15);
             this.welcome_label.TabIndex = 2;
-            this.welcome_label.Text = "Hello" +fuctions.display_information_from_setup_file(0) +"lets get started putting in your latest results!";
+            this.welcome_label.Text = "Hello Feb lets get started by putting in your latest results!";
             // 
             // contextMenuStrip3
             // 
@@ -127,11 +131,12 @@ namespace Fencing_stats
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(383, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -153,19 +158,39 @@ namespace Fencing_stats
             // start_input_button
             // 
             this.start_input_button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.start_input_button.Location = new System.Drawing.Point(25, 171);
+            this.start_input_button.Location = new System.Drawing.Point(47, 96);
             this.start_input_button.Name = "start_input_button";
-            this.start_input_button.Size = new System.Drawing.Size(75, 23);
+            this.start_input_button.Size = new System.Drawing.Size(107, 61);
             this.start_input_button.TabIndex = 7;
-            this.start_input_button.Text = "Input";
+            this.start_input_button.Text = "Get started!";
             this.start_input_button.UseVisualStyleBackColor = false;
             this.start_input_button.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // exit_button
+            // 
+            this.exit_button.Location = new System.Drawing.Point(213, 96);
+            this.exit_button.Name = "exit_button";
+            this.exit_button.Size = new System.Drawing.Size(114, 61);
+            this.exit_button.TabIndex = 8;
+            this.exit_button.Text = "Exit";
+            this.exit_button.UseVisualStyleBackColor = true;
+            this.exit_button.Click += new System.EventHandler(this.exit_button_click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
             // 
             // Main_Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(383, 180);
+            this.Controls.Add(this.exit_button);
             this.Controls.Add(this.start_input_button);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.welcome_label);
@@ -199,6 +224,10 @@ namespace Fencing_stats
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem updateInformationToolStripMenuItem1;
         private System.Windows.Forms.Button start_input_button;
+        private System.Windows.Forms.Button exit_button;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
    
 }
